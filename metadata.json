@@ -1,0 +1,6 @@
+{
+  "name": "Golden Leadership Development",
+  "description": "Executive coaching, leadership development programs, and transformative leadership consulting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

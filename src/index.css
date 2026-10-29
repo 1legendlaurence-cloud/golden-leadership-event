@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-headline: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    --font-serif-label: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    letter-spacing: -0.01em;
+    background-color: #FAF7F2;
+    color: #1F1A14;
+  }
+}
+
+.font-klarissa {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.font-klarissa-shadow {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.font-century-bold {
+  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.font-century {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.placeholder-thin::placeholder {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.03em;
+  color: #B5A895;
+}
